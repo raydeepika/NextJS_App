@@ -13,7 +13,7 @@ function AuthForm() {
       <h1>{isLogin ? 'Login' : 'Sign Up'}</h1>
       <form>
         <div className={classes.control}>
-          <label htmlFor='email'>Your Email</label>
+          <label htmlFor='email'>Email</label>
           <input type='email' id='email' required />
         </div>
         <div className={classes.control}>
