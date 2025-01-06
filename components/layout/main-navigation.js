@@ -6,7 +6,7 @@ function MainNavigation() {
   return (
     <header className={classes.header}>
       <Link href="/">
-        <div className={classes.logo}>Next Authorization</div>
+        <div className={classes.logo}>Next Auth</div>
       </Link>
       <nav>
         <ul>
